@@ -1,0 +1,23 @@
+.cont{
+  height: 90vh;
+  text-align: center;
+}
+
+.btn {
+  font-size: 2rem;
+  margin: 150px auto 0;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  background-color: rgb(147, 220, 223);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(89, 169, 172);
+}
+
+ul{
+  list-style: none; 
+  padding:0
+}
