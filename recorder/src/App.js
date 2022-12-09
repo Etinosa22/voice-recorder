@@ -6,7 +6,7 @@ function App(){
     <div> 
       <Record/>
     </div>
-  )
+  )   
 }
 
 export default App

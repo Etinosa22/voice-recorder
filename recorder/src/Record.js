@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import "./App.css"
-// import React from 'react'
 import vmsg from 'vmsg'
 
 
@@ -20,7 +19,7 @@ class Record extends Component{
       record = async () => {
         this.setState({isLoading:true})
     
-        //Permission tom use Microphone
+        //Permission to use Microphone
         if(this.state.isRecording){
           const blob = await recorder.stopRecording()
           this.setState({
@@ -35,7 +34,7 @@ class Record extends Component{
             await recorder.initWorker()
             recorder.startRecording()
             this.setState({isLoading:false,isRecording:true})
-          }catch(e){
+          } catch(e){
             console.error(e)
             this.setState({isLoading:false})
           }
